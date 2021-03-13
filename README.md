@@ -6,6 +6,8 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Virace&repo=kratos-pe&show_owner=true)](https://github.com/virace/kratos-pe)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Virace&repo=douyu-push&show_owner=true)](https://github.com/virace/douyu-push)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Virace&repo=lol_extract_voice&show_owner=true)](https://github.com/virace/lol_extract_voice)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Virace&repo=py-bnk-extract&show_owner=true)](https://github.com/Virace/py-bnk-extract)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Virace&repo=lol-audio-events-hashtable&show_owner=true)](https://github.com/Virace/lol-audio-events-hashtable)
 
 ### Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Virace&layout=compact)
