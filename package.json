@@ -1,0 +1,12 @@
+{
+  "name": "virace-profile",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "update:profile": "node scripts/update-profile.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2"
+  }
+}

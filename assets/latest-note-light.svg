@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="152" viewBox="0 0 320 152" role="img" aria-labelledby="card-title">
+  <title id="card-title">最近一篇：Lol Audio Unpack：这些年折腾的英雄联盟音频工具，2026-10-11</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif; }
+    .mono { font-family: ui-monospace, Consolas, monospace; }
+    .cursor { animation: blink 2.4s steps(1) infinite; } @keyframes blink { 0%, 64% { opacity: 1; } 65%, 100% { opacity: 0; } }.head { animation: scan 5.6s steps(10) infinite; } @keyframes scan { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(77px); } }
+    @media (prefers-reduced-motion: reduce) { .motion { animation: none !important; } }
+  </style>
+  <g shape-rendering="crispEdges">
+    <path d="M4 1H316V4H319V148H316V151H4V148H1V4H4Z" fill="#FAFAFD" stroke="#8D93A3" stroke-width="2"/>
+    <path d="M5 3H315V6H317V31H3V6H5Z" fill="#ECEEF4"/>
+    <path d="M2 32H318" stroke="#8D93A3"/>
+    <path d="M14 12H24V22H14Z" fill="none" stroke="#707C9E" stroke-width="2"/>
+    <path d="M271 21H279M288 13H298V22H288Z" fill="none" stroke="#8D93A3" stroke-width="2"/>
+    <text x="33" y="22" font-size="11" fill="#333A4C">最近一篇</text>
+    <text x="20" y="67" font-size="19" font-weight="600" fill="#333A4C">Lol Audio Unpack</text>
+    <text x="20" y="91" font-size="13" fill="#686F82">这些年折腾的英雄联盟音频工具</text>
+    <path d="M17 108H303" stroke="#ECEEF4" stroke-width="2"/>
+    <text x="20" y="132" class="mono" font-size="11" fill="#686F82">2026.10.11</text>
+    <path d="M168 128H260" stroke="#ECEEF4" stroke-width="8"/><path d="M169 128H259" stroke="#707C9E" stroke-width="2" stroke-dasharray="2 5"/><rect class="motion head" x="171" y="123" width="5" height="10" fill="#333A4C"/>
+    <path d="M280 128H297M291 122H294V125H297V128H300V131H297V134H294V137H291" fill="none" stroke="#333A4C" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+name: 更新主页卡片
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - package.json
+      - package-lock.json
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - name: 安装依赖
+        run: npm ci --ignore-scripts
+      - name: 更新 RSS 卡片
+        run: npm run update:profile
+      - name: 保存有变化的卡片
+        run: |
+          git add -- README.md assets/notebook-light.svg assets/notebook-dark.svg assets/latest-note-light.svg assets/latest-note-dark.svg
+          if git diff --cached --quiet; then
+            echo "卡片没有变化"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): 更新主页卡片"
+          git push

@@ -1,36 +1,24 @@
-<div align="center">
-  <a href="https://github.com/Virace">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=45AD53&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Virace+👋;Python+%26+Go+Developer;DIY+Hardware+Tinkerer" alt="Typing SVG" />
-  </a>
-</div>
+<p align="center">
+  <img src="assets/tom-workbench-pixel.png" width="420" alt="汤姆猫的像素工作台：宽屏上的音频编辑器与个人网站">
+</p>
 
-<div align="center">
-  <em>Building lightweight tools, modding hardware, and blogging since 2014 at <a href="https://x-item.com">x-item.com</a>.</em>
-</div>
-<br/>
+<h3 align="center">Virace / X-Item</h3>
 
-### 👨‍💻 关于我 | About Me
-
-- 🚀 **当前主力开发：** **Appstract** - 一个 Go 编写的便携软件启动与管理工具。
-- 🛠️ **效率工具：** **chrome-go** - 快速部署带有 Chrome++ 增强功能的纯净便携版 Chrome 环境。
-- ⚙️ **硬核折腾：** 将小米 5 爆改直供电、自制散热并编译驱动，打造 Headless Linux 服务器。
-- 🎮 **工作之外：** 开放世界与类魂游戏玩家，研究动漫产业模式。
-
----
-
-### 📊 GitHub 全景数据 | Metrics
-
-<div align="center">
-  <img src="github-metrics.svg" alt="Virace's GitHub Metrics" width="100%">
-</div>
-
----
-
-### 📦 核心项目 | Pinned Projects
+<p align="center">写点代码，也记下折腾的过程。</p>
 
 <p align="center">
-  <a href="https://github.com/virace/kratos-pe"><img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Virace&repo=kratos-pe&theme=dark&bg_color=0D1117&hide_border=true&show_owner=true" alt="kratos-pe" width="48%"></a>
-  <a href="https://github.com/virace/douyu-push"><img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Virace&repo=douyu-push&theme=dark&bg_color=0D1117&hide_border=true&show_owner=true" alt="douyu-push" width="48%"></a>
-  <a href="https://github.com/virace/lol_extract_voice"><img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Virace&repo=lol_extract_voice&theme=dark&bg_color=0D1117&hide_border=true&show_owner=true" alt="lol_extract_voice" width="48%"></a>
-  <a href="https://github.com/Virace/py-bnk-extract"><img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Virace&repo=py-bnk-extract&theme=dark&bg_color=0D1117&hide_border=true&show_owner=true" alt="py-bnk-extract" width="48%"></a>
+  <a href="https://x-item.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/notebook-dark.svg">
+      <img src="assets/notebook-light.svg" width="320" alt="孤独的未知数：经验、踩坑和项目进展，访问 x-item.com">
+    </picture>
+  </a>
+  <!-- latest-note:start -->
+  <a href="https://x-item.com/lol_extract_voice.html">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/latest-note-dark.svg">
+      <img src="assets/latest-note-light.svg" width="320" alt="最近一篇：Lol Audio Unpack：这些年折腾的英雄联盟音频工具，2026-10-11">
+    </picture>
+  </a>
+  <!-- latest-note:end -->
 </p>
