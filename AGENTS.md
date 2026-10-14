@@ -8,5 +8,5 @@
 - 个人介绍只使用用户已确认的信息；项目说明以对应仓库的真实 README 为依据。
 - 本地需要 Node.js 24+，执行 `npm ci --ignore-scripts`、`npm run update:profile` 更新卡片。也可通过 `--feed <RSS文件>` 复用真实数据样本；RSS 读取无需登录。
 - 修改后运行 `node --check scripts/update-profile.mjs`、`node --check scripts/cards.mjs` 和 `git diff --check`，通过本地 Markdown 预览核对图片、排版和链接，并检查窄屏与浅色、深色显示。
-- `.github/workflows/profile-cards.yml` 每 6 小时自动更新一次，也支持手动运行和脚本变更触发；只保存两张卡片的浅色、深色素材与 README 的变化。旧的 `github-metrics.svg` 当前未引用。
+- `.github/workflows/profile-cards.yml` 每月 1 日 09:17（Asia/Hong_Kong，cron 使用 UTC）自动更新一次，也支持手动运行和脚本变更触发；只保存两张卡片的浅色、深色素材与 README 的变化。旧的 `github-metrics.svg` 当前未引用。
 - 一次性预览文件放在 `.temp/` 的任务专用目录；未经用户要求，不提交或推送。
